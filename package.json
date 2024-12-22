@@ -1,0 +1,37 @@
+{
+  "name": "@megaorm/gen",
+  "version": "1.0.0",
+  "description": "This package is designed to manage tables creation and deletion for you.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-gen.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc"
+  },
+  "keywords": [
+    "megaorm-gen",
+    "megaorm-generator",
+    "megaorm",
+    "generator",
+    "database",
+    "sql",
+    "migration"
+  ],
+  "dependencies": {
+    "@megaorm/builder": "^1.0.0",
+    "@megaorm/test": "^1.2.0",
+    "@megaorm/utils": "^1.0.0"
+  }
+}
